@@ -5,6 +5,8 @@
 @layer base {
   body {
     @apply font-[Raleway];
+    background-color: #404042;
+    color: beige;
   }
   li {
     @apply px-4;
