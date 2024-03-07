@@ -12,7 +12,7 @@ const Contact = () => {
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-pink-600">
+          <p className="text-4xl font-bold inline border-b-4 border-[#e34dfb]">
             Contact
           </p>
           <p className="py-4">
@@ -38,7 +38,7 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="border-2 hover:bg-pink-600 hover:border-pink-600 px-4 py-3 my-8 mx-auto flex items-center  ">
+        <button className="border-2 hover:bg-[#e34dfb] hover:border-[#e34dfb] px-4 py-3 my-8 mx-auto flex items-center  ">
           Let's Collaborate
         </button>
       </form>

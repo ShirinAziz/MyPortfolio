@@ -6,7 +6,7 @@
   body {
     @apply font-[Raleway];
     background-color: #404042;
-    color: beige;
+    color: #f6edf7;
   }
   li {
     @apply px-4;
