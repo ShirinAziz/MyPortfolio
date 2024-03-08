@@ -7,6 +7,7 @@
     @apply font-[Raleway];
     background-color: #404042;
     color: #f6edf7;
+    font-family: system-ui;
   }
   li {
     @apply px-4;

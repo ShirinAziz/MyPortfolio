@@ -89,12 +89,19 @@ function Navbar() {
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
-            <a className="flex justify-between items-center w-full" href="/">
-              Linkedin <FaLinkedin size={30} />
+            <a
+              className="flex justify-between items-center w-full"
+              href="https://www.linkedin.com/in/shirin-aziz-343a98213/"
+            >
+              Linkedin
+              <FaLinkedin size={30} />
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
-            <a className="flex justify-between items-center w-full" href="/">
+            <a
+              className="flex justify-between items-center w-full"
+              href="https://github.com/ShirinAziz?tab=repositories"
+            >
               Github <FaGithub size={30} />
             </a>
           </li>
@@ -103,11 +110,11 @@ function Navbar() {
               Email <HiOutlineMail size={30} />
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] ">
+          {/*   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] ">
             <a className="flex justify-between items-center w-full" href="/">
               Resume <BsFillPersonLinesFill size={30} />
             </a>
-          </li>
+          </li>*/}
         </ul>
       </div>
     </div>

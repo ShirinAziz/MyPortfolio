@@ -1,5 +1,6 @@
 import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { Link } from "react-scroll";
 import Me from "/public/Me.jpg";
 
 const Home = () => {
@@ -22,16 +23,18 @@ const Home = () => {
         </p>
         <div>
           <button className="group border-2 px-3 my-2 h-10 flex items-center hover:bg-[#e34dfb] hover:border-[#e34dfb]">
-            View Projects
+            <Link to="projects" smooth={true} duration={500}>
+              View Projects
+            </Link>
             <span className="group-hover:rotate-90 duration-300">
               <HiArrowNarrowRight className="ml-3" />
             </span>
           </button>
         </div>
       </div>
-      <div className="">
+      <div>
         <img
-          className=" sm:h-[500px] sm:w-[550px] rounded-[50%]"
+          className=" sm:h-[500px] sm:w-[600px] rounded-[50%]"
           src={Me}
           alt="pic of me"
         />
