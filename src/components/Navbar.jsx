@@ -90,6 +90,7 @@ function Navbar() {
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-500 ">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full"
               href="https://www.linkedin.com/in/shirin-aziz-343a98213/"
             >
@@ -99,6 +100,7 @@ function Navbar() {
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333] ">
             <a
+              target="_blank"
               className="flex justify-between items-center w-full"
               href="https://github.com/ShirinAziz?tab=repositories"
             >
