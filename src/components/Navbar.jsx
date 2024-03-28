@@ -9,7 +9,7 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#2f2f30]">
+    <div className=" w-full h-[80px] flex justify-between items-center px-4 bg-[#2f2f30]">
       <div className="text-bold text-3xl text-[#e34dfb]">Shirin Aziz</div>
 
       {/* menue */}

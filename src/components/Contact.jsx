@@ -27,7 +27,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full h-screen flex justify-center items-center p-4"
+      className="w-full flex justify-center items-center p-4 mt-40"
     >
       <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col">
         <div className="pb-8">
