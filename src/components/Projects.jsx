@@ -17,7 +17,7 @@ const Projects = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*grid item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg2})` }}
+            style={{ backgroundImage: `url(${WorkImg})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -137,7 +137,7 @@ const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${WorkImg2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
