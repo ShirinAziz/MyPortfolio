@@ -17,18 +17,11 @@ const About = () => {
             <p>Hi. I'm Shirin, nice to met you. please take a look around.</p>
           </div>
           <div>
-            <p>
-              As a frontend developer with a focus on web security, I specialize
-              in ensuring and improving the security of websites or web
-              application user interfaces. My responsibilities include
-              integrating security into the design process, conducting code
-              reviews, implementing encryption, managing authentication and
-              authorization, protecting against various types of attacks such as
-              XSS and CSRF, securely handling client data, keeping libraries and
-              frameworks up to date, and raising awareness and training around
-              web security within the team. The goal is to create a safe and
-              secure user experience by preventing and managing security risks
-              and vulnerabilities.
+            <p className="text-2xl">
+              I'm a frontend developer student passionate about creating cool
+              and engaging projects. My previous project experience, coupled
+              with my creative flair, has transformed me into a formidable
+              developer ready to take on any challenge.
             </p>
           </div>
         </div>
