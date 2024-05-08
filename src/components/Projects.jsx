@@ -1,5 +1,6 @@
 import React from "react";
 import WorkImg from "/public/workImg.jpeg";
+import WorkImg2 from "/public/img2.png";
 
 const Projects = () => {
   return (
@@ -46,7 +47,7 @@ const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${WorkImg2})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-lg flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -55,12 +56,18 @@ const Projects = () => {
                 React JS Application
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a
+                  target="_blank"
+                  href="https://cryptopage-jxzq7qvzl-shirins-projects-20b237da.vercel.app/"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target="_blank" href="/">
+                <a
+                  target="_blank"
+                  href="https://github.com/ShirinAziz/cryptopage"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
