@@ -108,9 +108,12 @@ function Navbar() {
             </a>
           </li>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fe2b0] ">
-            <a className="flex justify-between items-center w-full" href="/">
+            <Link
+              className="flex justify-between items-center w-full"
+              to="contact"
+            >
               Email <HiOutlineMail size={30} />
-            </a>
+            </Link>
           </li>
           {/*   <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69] ">
             <a className="flex justify-between items-center w-full" href="/">
