@@ -64,7 +64,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a target="_blank" href="https://cryptopage-seven.vercel.app">
+                <a target="_blank" href="https://cryptopage-two.vercel.app/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
