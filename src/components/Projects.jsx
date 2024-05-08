@@ -1,6 +1,7 @@
 import React from "react";
 import WorkImg from "/public/workImg.jpeg";
 import WorkImg2 from "/public/img2.png";
+import WorkImg3 from "/public/img3.png";
 
 const Projects = () => {
   return (
@@ -74,13 +75,13 @@ const Projects = () => {
           </div>
 
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${WorkImg3})` }}
             className="shadow-lg shadow-[#040c16]  group container rounded-lg flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Coming Soon
               </span>
               <div className="pt-8 text-center">
                 <a href="/">
