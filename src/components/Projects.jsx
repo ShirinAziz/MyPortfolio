@@ -24,7 +24,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Food Menu App
               </span>
               <div className="pt-8 text-center">
                 <a
@@ -54,7 +54,7 @@ const Projects = () => {
             {/* Hover Effects */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                React JS Application
+                Crypto Currency
               </span>
               <div className="pt-8 text-center">
                 <a target="_blank" href="https://cryptopage-two.vercel.app/">
