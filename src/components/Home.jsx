@@ -2,6 +2,7 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { Link } from "react-scroll";
 import Me from "/public/Me.jpg";
+import SocialIcons from "./SocialIcons";
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
           alt="pic of me"
         />
       </div>
+      <SocialIcons />
     </div>
   );
 };
