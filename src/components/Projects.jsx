@@ -84,12 +84,15 @@ const Projects = () => {
                 Coming Soon
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target="_blank" href="/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target="_blank" href="/">
+                <a
+                  target="_blank"
+                  //href="https://github.com/ShirinAziz/WeatherApp"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
