@@ -31,7 +31,7 @@ const Contact = () => {
     >
       <form onSubmit={(e) => handleSubmit(e)} className="flex flex-col">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-[#e34dfb]">
+          <p className="text-4xl font-bold inline border-b-4 border-[#6c656d]">
             Contact
           </p>
           <p className="py-4">
@@ -65,7 +65,7 @@ const Contact = () => {
         ></textarea>
         <button
           type="submit"
-          className="border-2 hover:bg-[#e34dfb] hover:border-[#e34dfb] px-4 py-3 my-8 mx-auto flex items-center"
+          className="border-2 hover:bg-[#6c656d] hover:border-[#6c656d] px-4 py-3 my-8 mx-auto flex items-center"
         >
           Let's Collaborate
         </button>

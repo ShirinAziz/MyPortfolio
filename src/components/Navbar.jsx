@@ -8,8 +8,8 @@ function Navbar() {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className=" w-full h-[80px] flex justify-between items-center px-4 bg-[#2f2f30]">
-      <div className="text-bold text-3xl text-[#e34dfb]">Shirin Aziz</div>
+    <div className=" w-full h-[80px] flex justify-between items-center px-4 ">
+      <div className="text-bold text-3xl text-[#6c656d]">Shirin Aziz</div>
 
       {/* menue */}
       <ul className="hidden md:flex">
@@ -49,7 +49,7 @@ function Navbar() {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#2f2f30]"
+            : "absolute top-0 left-0 w-full h-screen flex flex-col justify-center items-center bg-[#2f2f30] text-amber-50"
         }
       >
         <li className="py-6 text-4xl">

@@ -5,8 +5,8 @@
 @layer base {
   body {
     @apply font-[Raleway];
-    background-color: #181818;
-    color: #f6edf7;
+    background-color: rgb(194, 194, 184);
+    color: #333131;
     font-family: system-ui;
   }
   li {

@@ -14,7 +14,7 @@ const Home = () => {
       <div className=" flex flex-col justify-center gap-[8px] h-full">
         <p className="sm:text-2xl">Hi, my name is</p>
         <h1 className="text-4xl sm:text-5xl font-bold">Shirin Aziz</h1>
-        <h2 className="text-4xl sm:text-5xl font-bold text-[#e34dfb]">
+        <h2 className="text-4xl sm:text-5xl font-bold text-[#6c656d]">
           I'm a Frontend Developer.
         </h2>
         <p className="py-4 max-w-[700px]">
@@ -22,7 +22,7 @@ const Home = () => {
           secure and interactive applications and experience the web.
         </p>
         <div>
-          <button className="group border-2 px-3 my-2 h-10 flex items-center hover:bg-[#e34dfb] hover:border-[#e34dfb]">
+          <button className="group border-2 px-3 my-2 h-10 flex items-center hover:bg-[#6c656d] hover:border-[#6c656d]">
             <Link to="projects" smooth={true} duration={500}>
               View Projects
             </Link>
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <div>
         <img
-          className=" sm:h-[500px] sm:w-[600px] rounded-[50%]"
+          className=" sm:h-[500px] sm:w-[600px] rounded-[50%] opacity-85"
           src={Me}
           alt="pic of me"
         />
